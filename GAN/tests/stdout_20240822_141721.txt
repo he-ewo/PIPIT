@@ -1,0 +1,27 @@
+Started testing RGAN-TL Classifier
+============ RandomForest ============
+Accuracy :  0.3262
+Precision :  0.3269
+Recall :  0.3262
+f1-score :  0.3199
+Loading datasets from pickle\gan_dataset.p
+============ RF with GAN ============
+Accuracy :  0.33
+Precision :  0.3333
+Recall :  0.33
+f1-score :  0.3253
+============ RF with WGAN ============
+Accuracy :  0.3312
+Precision :  0.3327
+Recall :  0.3312
+f1-score :  0.3258
+============ RF with WGANGP ============
+Accuracy :  0.3325
+Precision :  0.3342
+Recall :  0.3325
+f1-score :  0.3257
+============ RF with SNGANs ============
+Accuracy :  0.325
+Precision :  0.3243
+Recall :  0.325
+f1-score :  0.3176
