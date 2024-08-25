@@ -18,12 +18,8 @@ def print_metrics(y_real, y_pred):
 
 def RandomForest(x_train, y_train, x_test, y_test):
     # 모델링
-    model_rf = RandomForestClassifier(n_estimators=150,
-                                      random_state=42,
-                                      max_depth=15,
-                                      min_samples_split=9,
-                                      min_samples_leaf=5,
-                                      )
+    model_rf = RandomForestClassifier(n_estimators=15, random_state=42)
+    
     # 학습
     model_rf.fit(x_train, y_train)
 

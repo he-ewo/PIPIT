@@ -1,0 +1,37 @@
+Started testing RGAN-TL Classifier
+============ RandomForest ============
+Accuracy :  0.3462
+Precision :  0.3486
+Recall :  0.3462
+f1-score :  0.3451
+x_size: 14, type: <class 'int'>
+start ganfit
+done ganfit
+x_size: 14, type: <class 'int'>
+start ganfit
+done ganfit
+x_size: 14, type: <class 'int'>
+start ganfit
+done ganfit
+start ganfit
+done ganfit
+============ RF with GAN ============
+Accuracy :  0.335
+Precision :  0.3352
+Recall :  0.335
+f1-score :  0.3318
+============ RF with WGAN ============
+Accuracy :  0.3525
+Precision :  0.3519
+Recall :  0.3525
+f1-score :  0.349
+============ RF with WGANGP ============
+Accuracy :  0.335
+Precision :  0.3371
+Recall :  0.335
+f1-score :  0.3301
+============ RF with SNGANs ============
+Accuracy :  0.3462
+Precision :  0.3462
+Recall :  0.3462
+f1-score :  0.3416
